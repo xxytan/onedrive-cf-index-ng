@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: process.env.INDEX_TITLE || "Kent's OneDrive",
+  title: "Kent's OneDrive",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: process.env.BASE_DIRECTORY || '/',
@@ -39,7 +39,7 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: [
-    process.env.PROTECTED_ROUTES ,
+    '/190memories',
   ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
